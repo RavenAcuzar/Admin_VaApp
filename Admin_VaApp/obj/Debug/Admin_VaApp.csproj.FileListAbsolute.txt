@@ -1,0 +1,23 @@
+c:/users/sqladmin/documents/visual studio 2012/Projects/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.dll
+c:/users/sqladmin/documents/visual studio 2012/Projects/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.pdb
+c:/users/sqladmin/documents/visual studio 2012/Projects/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.csprojResolveAssemblyReference.cache
+c:/users/sqladmin/documents/visual studio 2012/Projects/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.dll
+c:/users/sqladmin/documents/visual studio 2012/Projects/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.pdb
+C:/Users/Ionic_JC/Desktop/Important/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.dll.config
+C:/Users/Ionic_JC/Desktop/Important/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.dll
+C:/Users/Ionic_JC/Desktop/Important/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.pdb
+C:/Users/Ionic_JC/Desktop/Important/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.dll
+C:/Users/Ionic_JC/Desktop/Important/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.pdb
+C:/Users/Ionic_JC/Desktop/Important/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.csprojResolveAssemblyReference.cache
+/Users/ojt/Desktop/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.dll
+/Users/ojt/Desktop/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.pdb
+/Users/ojt/Desktop/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.csprojAssemblyReference.cache
+/Users/ojt/Desktop/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.csproj.CoreCompileInputs.cache
+/Users/ojt/Desktop/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.dll
+/Users/ojt/Desktop/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.pdb
+/Users/dev/Documents/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.dll
+/Users/dev/Documents/Admin_VaApp/Admin_VaApp/bin/Admin_VaApp.pdb
+/Users/dev/Documents/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.csprojAssemblyReference.cache
+/Users/dev/Documents/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.csproj.CoreCompileInputs.cache
+/Users/dev/Documents/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.dll
+/Users/dev/Documents/Admin_VaApp/Admin_VaApp/obj/Debug/Admin_VaApp.pdb

@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{5F4BCBDE-A1A6-4957-BA3F-1812F74AE133}|">
+  <MonoDevelop.Ide.ItemProperties.Admin__VaApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EditAmbassador.aspx.cs">
+    <Files>
+      <File FileName="NewAmbassador.aspx.cs" Line="119" Column="14" />
+      <File FileName="VAmbassadors.cs" Line="303" Column="33" />
+      <File FileName="EditAmbassador.aspx.cs" Line="94" Column="97" />
+      <File FileName="EditAmbassador.aspx" Line="213" Column="81" />
+      <File FileName="NewAmbassador.aspx" Line="191" Column="80" />
+      <File FileName="EditAmbassador.aspx.designer.cs" />
+      <File FileName="NewCorpStaff.aspx.cs" />
+      <File FileName="Web.config" Line="9" Column="23" />
+      <File FileName="Web.Debug.config" Line="1" Column="1" />
+      <File FileName="eException.cs" />
+      <File FileName="NewCorpStaff.aspx" Line="1" Column="1" />
+      <File FileName="VCorporate.cs" Line="304" Column="59" />
+      <File FileName="general.cs" Line="215" Column="55" />
+      <File FileName="Web.Release.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Admin_VaApp" expanded="True">
+            <Node name="Admin_VaApp" expanded="True">
+              <Node name="EditAmbassador.aspx" expanded="True">
+                <Node name="EditAmbassador.aspx.cs" selected="True" />
+              </Node>
+              <Node name="NewAmbassador.aspx" expanded="True" />
+              <Node name="NewCorpStaff.aspx" expanded="True" />
+              <Node name="Web.config" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

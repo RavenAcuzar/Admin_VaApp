@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="Admin_VaApp.Index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="theme-color" content="#3e454c" />
+
+    <title>VA App - Administrator</title>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap.min.js"></script>
+    <script src="js/fileinput.js"></script>
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" />
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <%--<link rel="stylesheet" href="css/style.css" />--%>
+
+    <!-- Font awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Sandstone Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Datatables -->
+    <link href="css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap social button library -->
+    <link href="css/bootstrap-social.css" rel="stylesheet" />
+    <!-- Bootstrap select -->
+    <link href="css/bootstrap-select.css" rel="stylesheet" />
+    <!-- Bootstrap file input -->
+    <link href="css/fileinput.min.css" rel="stylesheet" />
+    <!-- Awesome Bootstrap checkbox -->
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet" />
+    <!-- Admin Stye -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div class="brand clearfix">
+            <a href="#" class="logo">VAmbassadors Admin</a>
+            <span class="menu-btn">
+                <i class="fa fa-bars"></i></span>
+            <ul class="ts-profile-nav">
+                <li class="ts-account">
+                    <a href="#">My Account <i class="fa fa-angle-down hidden-side"></i></a>
+                    <ul>
+                        <li>
+                            <asp:LinkButton ID="lbtnLogout" runat="server" Text="Logout" OnClick="lbtnLogout_Click"></asp:LinkButton></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="ts-main-content">
+            <nav class="ts-sidebar">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="img/icon.png" style="width: 60px; height: 60px;" /></td>
+                        <td><span class="label">Welcome</span>
+                            <br />
+                            <a href="Home.aspx" class="logo"><% Response.Write((string)Session["username"]); %></a></td>
+                    </tr>
+                </table>
+
+                <ul class="ts-sidebar-menu">
+
+                    <li class="ts-label">Main</li>
+                    <li class="open"><a href="Home.aspx"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fa fa-eye"></i>View</a>
+                        <ul>
+                            <li><a href="Ambassador.aspx">Ambassador</a></li>
+                            <li><a href="Corporate.aspx">Corporate Staff</a></li>
+                            <li><a href="GBD.aspx">GBD</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-user-plus"></i>Create User</a>
+                        <ul>
+                            <li><a href="NewAmbassador.aspx">V Ambassador</a></li>
+                            <li><a href="NewCorpStaff.aspx">V Corporate Staff</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><i class="fa fa-edit"></i>Edit User</a>
+                        <ul>
+                            <li><a href="EditAmbassador.aspx">V Ambassador</a></li>
+                            <li><a href="EditCorpStaff.aspx">V Corporate Staff</a></li>
+                        </ul>
+                    </li>
+                    <%-- <li><a href="#"><i class="fa fa-plane"></i>Travel Request</a>
+                        <ul>
+                            <li><a href="ViewTravel.aspx">View travel request</a></li>
+                            <li><a href="EditTravel.aspx">Edit travel request</a></li>
+                            <li><a href="DeleteTravel.aspx">Delete travel request</a></li>
+                        </ul>
+                    </li>--%>
+                    <li><a href="#"><i class="fa fa-plane"></i>VA Nomination</a>
+                        <ul>
+                            <li><a href="AddNominee.aspx">Add Nominee</a></li>
+                            <li><a href="ViewNominees.aspx">Show Nominees</a></li>
+                            <li><a href="EditNominee.aspx">Edit Nominees</a></li>
+
+                            <li><a href="#"><i class="fa fa-plane"></i>Report</a>
+                                <ul>
+                                    <li><a href="AVPNominationReport.aspx?title=avp">AVP Candidate</a></li>
+                                    <li><a href="AVPNominationReport.aspx?title=vc">VC Candidate</a></li>
+                                </ul>
+                            </li>
+
+                            <%-- <li><a href="EditTravel.aspx">Edit Nominee</a></li>
+                            <li><a href="EditTravel.aspx">View Rating</a></li>--%>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="content-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </form>
+</body>
+</html>

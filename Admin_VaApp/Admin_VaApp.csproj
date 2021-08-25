@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F4BCBDE-A1A6-4957-BA3F-1812F74AE133}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Admin_VaApp</RootNamespace>
+    <AssemblyName>Admin_VaApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddNominee.aspx" />
+    <Content Include="Ambassador.aspx" />
+    <Content Include="AVPNominationReport.aspx" />
+    <Content Include="Corporate.aspx" />
+    <Content Include="css\awesome-bootstrap-checkbox.css" />
+    <Content Include="css\bootstrap-select.css" />
+    <Content Include="css\bootstrap-social.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\css\vars.css" />
+    <Content Include="css\dataTables.bootstrap.min.css" />
+    <Content Include="css\datatables.min.css" />
+    <Content Include="css\fileinput.min.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery.dataTables.min.css" />
+    <Content Include="css\style.css" />
+    <Content Include="EditAmbassador.aspx" />
+    <Content Include="EditCorpStaff.aspx" />
+    <Content Include="EditNominee.aspx" />
+    <Content Include="EditTravel.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Gbd.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.aspx" />
+    <Content Include="img\icon.png" />
+    <Content Include="img\login-bg.jpg" />
+    <Content Include="img\logo.jpg" />
+    <Content Include="img\ts-avatar.jpg" />
+    <Content Include="js\bootstrap-select.js" />
+    <Content Include="js\bootstrap-select.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Chart.min.js" />
+    <Content Include="js\chartData.js" />
+    <Content Include="js\dataTables.bootstrap.min.js" />
+    <Content Include="js\fileinput.js" />
+    <Content Include="js\jquery.dataTables.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="Login\css\style.css" />
+    <Content Include="Login\js\index.js" />
+    <Content Include="NewAmbassador.aspx" />
+    <Content Include="NewCorpStaff.aspx" />
+    <Content Include="ViewNominees.aspx" />
+    <Content Include="ViewTravel.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNominee.aspx.cs">
+      <DependentUpon>AddNominee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNominee.aspx.designer.cs">
+      <DependentUpon>AddNominee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ambassador.aspx.cs">
+      <DependentUpon>Ambassador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ambassador.aspx.designer.cs">
+      <DependentUpon>Ambassador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AVPNominationReport.aspx.cs">
+      <DependentUpon>AVPNominationReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AVPNominationReport.aspx.designer.cs">
+      <DependentUpon>AVPNominationReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Corporate.aspx.cs">
+      <DependentUpon>Corporate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Corporate.aspx.designer.cs">
+      <DependentUpon>Corporate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditAmbassador.aspx.cs">
+      <DependentUpon>EditAmbassador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditAmbassador.aspx.designer.cs">
+      <DependentUpon>EditAmbassador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCorpStaff.aspx.cs">
+      <DependentUpon>EditCorpStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditCorpStaff.aspx.designer.cs">
+      <DependentUpon>EditCorpStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditNominee.aspx.cs">
+      <DependentUpon>EditNominee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditNominee.aspx.designer.cs">
+      <DependentUpon>EditNominee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditTravel.aspx.cs">
+      <DependentUpon>EditTravel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditTravel.aspx.designer.cs">
+      <DependentUpon>EditTravel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eException.cs" />
+    <Compile Include="Gbd.aspx.cs">
+      <DependentUpon>Gbd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gbd.aspx.designer.cs">
+      <DependentUpon>Gbd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="general.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageData.ashx.cs">
+      <DependentUpon>ImageData.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.Master.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.Master.designer.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewAmbassador.aspx.cs">
+      <DependentUpon>NewAmbassador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewAmbassador.aspx.designer.cs">
+      <DependentUpon>NewAmbassador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCorpStaff.aspx.cs">
+      <DependentUpon>NewCorpStaff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCorpStaff.aspx.designer.cs">
+      <DependentUpon>NewCorpStaff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nominee.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TravelRequest.cs" />
+    <Compile Include="VAmbassadors.cs" />
+    <Compile Include="VCorporate.cs" />
+    <Compile Include="ViewNominees.aspx.cs">
+      <DependentUpon>ViewNominees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewNominees.aspx.designer.cs">
+      <DependentUpon>ViewNominees.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewTravel.aspx.cs">
+      <DependentUpon>ViewTravel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewTravel.aspx.designer.cs">
+      <DependentUpon>ViewTravel.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Index.Master" />
+    <Content Include="css\less\components.less" />
+    <Content Include="css\less\vars.less" />
+    <Content Include="css\style.less" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="ImageData.ashx" />
+    <None Include="Properties\PublishProfiles\Release.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49281</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56058/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

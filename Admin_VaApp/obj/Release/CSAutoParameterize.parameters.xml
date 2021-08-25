@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AppConnection-Web.config Connection String" description="AppConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(local);Initial Catalog=VA_App;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ionic_JC\\Desktop\\Important\\Admin_VaApp\\Admin_VaApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AppConnection']/@connectionString" />
+  </parameter>
+</parameters>
